@@ -352,6 +352,7 @@ PRODUCT_BOOT_JARS += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    init.msm.usb.configfs.rc \
     init.qcom.rc \
     init.vince.rc \
     init.qcom.sh \
