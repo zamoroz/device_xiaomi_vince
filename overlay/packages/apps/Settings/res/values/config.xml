@@ -24,6 +24,9 @@
     -->
     <integer name="config_fingerprintSensorLocation">0</integer>
 	
+    <!-- Whether to add AGPS parameter settings -->
+    <bool name="config_agps_enabled">true</bool>
+	
     <!-- Device specific doze package -->
     <string name="config_customDozePackage">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
 
