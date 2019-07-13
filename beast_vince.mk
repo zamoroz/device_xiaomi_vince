@@ -23,7 +23,6 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 
 # Inherit some common BeastROMs stuff.
 $(call inherit-product, vendor/beast/config/common.mk)
-$(call inherit-product, vendor/MiuiCamera/config.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
