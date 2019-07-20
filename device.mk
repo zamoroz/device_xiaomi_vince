@@ -20,7 +20,6 @@
 # definition file).
 #
 
-$(call inherit-product, vendor/xiaomi/msm8953-common/msm8953-common-vendor.mk)
 $(call inherit-product, vendor/xiaomi/vince/vince-vendor.mk)
 
 # Overlays
@@ -145,7 +144,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.camera.device@1.0_vendor \
-    Snap2
+    Snap
 
 # Consumerir
 PRODUCT_PACKAGES += \
