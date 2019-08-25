@@ -58,4 +58,6 @@
     <string name="dirac_preset_metal">Металл</string>
      <!-- QS tile title -->
     <string name="dirac_qs_tile_title">Mi звук</string>
+    <string name="device_settings_app_name">Mi sound</string>
+    <string name="ambient_display_title">Mi sound</string>
 </resources>
