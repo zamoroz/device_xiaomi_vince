@@ -549,9 +549,6 @@
         <item>B_Warm mode:reading</item>
         <item>D_Cold mode:dynamic</item>
     </string-array>
-	
-	<!-- Whether auto face unlock is enabled by default -->
-    <bool name="config_autoFaceUnlockEnabledByDefault">true</bool>
 
     <!-- Should we filter any display modes which are unampped? -->
     <bool name="config_filterDisplayModes">true</bool>
