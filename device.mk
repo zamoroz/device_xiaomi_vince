@@ -20,7 +20,6 @@
 # definition file).
 #
 
-$(call inherit-product, vendor/xiaomi/msm8953-common/msm8953-common-vendor.mk)
 $(call inherit-product, vendor/xiaomi/vince/vince-vendor.mk)
 
 # Overlays
@@ -159,6 +158,11 @@ PRODUCT_PACKAGES += \
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
+
+# Device mapper verity
+PRODUCT_SYSTEM_VERITY_PARTITION=/dev/block/bootdevice/by-name/system
+PRODUCT_VENDOR_VERITY_PARTITION=/dev/block/bootdevice/by-name/cust
+$(call inherit-product, build/target/product/verity.mk)
 
 # Display
 PRODUCT_PACKAGES += \

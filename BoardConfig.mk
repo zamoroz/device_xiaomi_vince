@@ -212,6 +212,11 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 # Security patch level
 VENDOR_SECURITY_PATCH := 2019-02-05
 
+# System as root
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+BOARD_KERNEL_CMDLINE += skip_initramfs rootwait ro init=/init root=/dev/dm-0
+BOARD_KERNEL_CMDLINE += dm=\"system none ro,0 1 android-verity /dev/sde19\"
+
 # Treble
 PRODUCT_VENDOR_MOVE_ENABLED := true
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
