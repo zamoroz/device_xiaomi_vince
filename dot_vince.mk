@@ -23,9 +23,8 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 
 # On for(PE)
 $(call inherit-product, vendor/dot/config/common.mk)
-$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-GAPPS_VARIANT := nano
+
 
 #Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
